@@ -37,7 +37,7 @@ def analyze_review_sentiments(text):
     except Exception as err:
         print(f"Unexpected {err=}, {type(err)=}")
         print("Network exception occurred")
-# Add code for retrieving sentiments
+
 
 # def post_review(data_dict):
 def post_review(data_dict):
