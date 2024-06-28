@@ -1,9 +1,9 @@
-const { Int32 } = require('mongodb');
-const mongoose = require('mongoose');
+let { Int32 } = require('mongodb');
+let mongoose = require('mongoose');
 
-const Schema = mongoose.Schema;
+let Schema = mongoose.Schema;
 
-const cars = new Schema({
+let cars = new Schema({
 dealer_id: {
     type: Number,
     required: true
